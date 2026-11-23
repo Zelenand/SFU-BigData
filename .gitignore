@@ -1,1 +1,11 @@
 /data
+/pr4/data/customers_clean
+/pr4/data/order_items_clean
+/pr4/data/orders_clean
+/pr4/data/products_clean
+/pr4/data/reviews_clean
+/pr4/output/category_sales_csv
+/pr4/output/category_sales_parquet
+/pr4/output/monthly_sales_csv
+/pr4/output/monthly_sales_parquet
+/pr4/output
