@@ -13,9 +13,9 @@ from pyspark.ml.evaluation import MulticlassClassificationEvaluator, BinaryClass
 os.environ["PYSPARK_PYTHON"] = sys.executable
 os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
 os.environ["SPARK_LOCAL_IP"] = "127.0.0.1"
-os.environ["HADOOP_HOME"] = "C:\\hadoop"
-os.environ["hadoop.home.dir"] = "C:\\hadoop"
-os.environ["PATH"] += os.pathsep + "C:\\hadoop\\bin"
+# os.environ["HADOOP_HOME"] = "C:\\hadoop"
+# os.environ["hadoop.home.dir"] = "C:\\hadoop"
+# os.environ["PATH"] += os.pathsep + "C:\\hadoop\\bin"
 
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
@@ -506,7 +506,7 @@ def menu():
     while True:
         print("\n" + "=" * 45)
         print(" АНАЛИТИКА ДАННЫХ E-COMMERCE")
-        print(" Apache Spark | Лабораторная работа № 4")
+        print(" Apache Spark | Лабораторная работа № 5")
         print("=" * 45)
         print("1. Просмотр загруженных данных")
         print("2. Анализ продаж по месяцам")
