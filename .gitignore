@@ -9,3 +9,8 @@
 /pr4/output/monthly_sales_csv
 /pr4/output/monthly_sales_parquet
 /pr4/output
+/pr5/data/customers_clean
+/pr5/data/order_items_clean
+/pr5/data/orders_clean
+/pr5/data/products_clean
+/pr5/data/reviews_clean
