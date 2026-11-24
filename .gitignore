@@ -15,3 +15,10 @@
 /pr5/data/products_clean
 /pr5/data/reviews_clean
 /pr5/data/output
+/pr6/data/customers_clean
+/pr6/data/order_items_clean
+/pr6/data/orders_clean
+/pr6/data/products_clean
+/pr6/data/reviews_clean
+/pr6/data/output/kafka_checkpoint
+/pr6/data/output/kafka_streaming
